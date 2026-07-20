@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: fsx/improve-configurations-fsx.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
-summary: Workload Factory scannt Amazon FSx nach NetApp ONTAP Konfigurationen und liefert Erkenntnisse und Empfehlungen, um operative Exzellenz zu ermöglichen. 
+summary: Workload Factory scannt Amazon FSx for NetApp ONTAP Konfigurationen und stellt Einblicke und Empfehlungen bereit, die zur Erreichung operativer Exzellenz beitragen. 
 ---
 = Gut strukturierte FSx for ONTAP Dateisystemkonfigurationen implementieren
 :allow-uri-read: 
@@ -11,7 +11,24 @@ summary: Workload Factory scannt Amazon FSx nach NetApp ONTAP Konfigurationen un
 
 
 [role="lead"]
-Nicht aufgelöste Direktive in <stdin> - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]
+Mithilfe der Erkenntnisse und Empfehlungen aus der Konfigurationsanalyse lässt sich mit Workload Factory die Umsetzung von Best Practices für Ihre FSx for ONTAP Dateisysteme unterstützen. Eine einfache Überprüfung des Well-Architected-Status ist möglich, ebenso wie das Erkennen von Problemen in den Konfigurationen und das Ergreifen von Maßnahmen zur Verbesserung der Architektur von Systemen, die nicht auf Zuverlässigkeit, Sicherheit, Effizienz, Leistung und Kosten optimiert sind.
+
+Sie können auch die Analyse bestimmter Speicherkonfigurationen ausblenden, die für Ihre Speicherumgebung nicht relevant sind, um unnötige Warnmeldungen und ungenaue Optimierungsergebnisse zu vermeiden.
+
+link:configuration-analysis.html["Informationen zur Konfigurationsanalyse und zum Well-Architected-Status in Workload Factory."]
+
+
+
+[[about-this-task]]
+== Über diese Aufgabe
+
+Workload Factory analysiert täglich die Bereitstellungskonfigurationen des Amazon FSx for NetApp ONTAP-Dateisystems. Die tägliche Analyse liefert den Well-Architected-Status sowie Erkenntnisse und Empfehlungen mit Optionen zur automatischen Behebung von Konfigurationsproblemen, damit Ihr Dateisystem Best Practices entspricht.
+
+Die Konnektivität über den Link- oder Console-Agenten ermöglicht Workload Factory einen umfassenden Scan Ihrer Dateisysteme auf Probleme mit Leistung, Datenschutz und Konfigurationen.
+
+Sie haben die Möglichkeit, die Empfehlungen für Konfigurationsprobleme Ihrer Dateisysteme einzusehen und die Probleme über den Speicher in der Workload Factory Konsole zu beheben.
+
+Da die Anforderungen an Speicherkonfigurationen variieren, kann die Analyse bestimmter Konfigurationen, die für Ihre Speicherumgebung nicht relevant sind, ausgeschlossen werden. Dies hilft, unnötige Warnmeldungen und ungenaue Optimierungsergebnisse zu vermeiden. Wenn die Analyse einer bestimmten Konfiguration ausgeschlossen wird, wird diese Konfiguration nicht in die Gesamtoptimierungsbewertung einbezogen.
 
 
 
@@ -19,7 +36,7 @@ Nicht aufgelöste Direktive in <stdin> - include::https://raw.githubusercontent.
 == Bevor Sie beginnen
 
 * Sie müssen link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Berechtigungen für Operationen und Behebung gewähren"^] in Ihrem AWS-Konto angemeldet sein.
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Verbindung zu einem FSx for ONTAP Dateisystem über einen Link herstellen"] für die umfassendste Analyse Ihrer Dateisystemressourcen.
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["Einen Console Agent installieren"^] oder link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Verbindung zu einem FSx for ONTAP Dateisystem über einen Link herstellen"] für die umfassendste Analyse Ihrer Dateisystemressourcen.
 
 
 
@@ -32,12 +49,11 @@ Sie können Konfigurationsprobleme für ein FSx for ONTAP Dateisystem oder für 
 Der Behebungsprozess kann zu Instanz-Ausfallzeiten oder Serviceunterbrechungen führen. Jede Empfehlung sollte sorgfältig geprüft werden, bevor ein Konfigurationsproblem behoben wird.
 
 .Schritte
-. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
-. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
-. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
-. Wählen Sie *Probleme anzeigen* für jede Konfiguration. Stellen Sie sicher, dass Sie die Empfehlung sorgfältig überprüfen.
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
+. Im Dashboard „Well-architected“ kann für jede Konfiguration die Option *Ansicht* ausgewählt werden.
 +
-Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke nicht optimierter Konfigurationen.
+Stellen Sie sicher, dass Sie die Empfehlung sorgfältig überprüfen. Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke nicht optimierter Konfigurationen.
 
 . *Reparieren* auswählen.
 +
@@ -62,13 +78,8 @@ Eine Konfigurationsanalyse für ein FSx for ONTAP Dateisystem oder für ausgewä
 .Eine Konfigurationsanalyse für ein Dateisystem verwerfen
 --
 .Schritte
-. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
-. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
-. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
-. Wählen Sie *Probleme anzeigen* für jede Konfiguration. Stellen Sie sicher, dass Sie die Empfehlung sorgfältig überprüfen.
-+
-Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke nicht optimierter Konfigurationen.
-
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
 . Suchen Sie unter Configurations die Konfiguration, die nicht auf Ihre Umgebung zutrifft, und wählen Sie dann *Dismiss*.
 . Im Dialogfeld „Konfiguration verwerfen“ *Verwerfen* auswählen, um die Konfigurationsanalyse zu beenden.
 
@@ -77,9 +88,8 @@ Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke 
 .Eine Konfigurationsanalyse für ein Volume abbrechen
 --
 .Schritte
-. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
-. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
-. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
 . Unter „Konfigurationen“ identifizieren Sie die Konfiguration, die für die ausgewählten Volumes verworfen werden soll, und wählen Sie dann *Anzeigen und reparieren* aus.
 . Die Volumes, die aus der Konfigurationsanalyse ausgeschlossen werden, identifizieren.
 +
@@ -110,10 +120,9 @@ Reaktivieren Sie eine verworfene Konfigurationsanalyse jederzeit. Sie können ei
 .Reaktivieren einer Konfigurationsanalyse für ein Dateisystem
 --
 .Schritte
-. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
-. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
-. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
-. Wählen Sie *Verworfene Konfigurationen* aus.
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
+. Im Dashboard „Well-architected“: *Verworfene Konfigurationen*.
 . Die gewünschte Konfiguration auswählen und *Reaktivieren* wählen.
 
 
