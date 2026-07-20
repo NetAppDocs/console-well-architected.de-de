@@ -1,0 +1,139 @@
+---
+sidebar: sidebar 
+permalink: fsx/improve-configurations-fsx.html 
+keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Amazon FSx for NetApp ONTAP, FSx for ONTAP 
+summary: Workload Factory scannt Amazon FSx nach NetApp ONTAP Konfigurationen und liefert Erkenntnisse und Empfehlungen, um operative Exzellenz zu ermöglichen. 
+---
+= Gut strukturierte FSx for ONTAP Dateisystemkonfigurationen implementieren
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Nicht aufgelöste Direktive in <stdin> - include::https://raw.githubusercontent.com/NetAppDocs/workload-fsx-ontap/main/_include/improve-configurations-fsx.adoc[]
+
+
+
+[[before-you-begin]]
+== Bevor Sie beginnen
+
+* Sie müssen link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Berechtigungen für Operationen und Behebung gewähren"^] in Ihrem AWS-Konto angemeldet sein.
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Verbindung zu einem FSx for ONTAP Dateisystem über einen Link herstellen"] für die umfassendste Analyse Ihrer Dateisystemressourcen.
+
+
+
+
+[[fix-a-configuration-issue]]
+== Ein Konfigurationsproblem beheben
+
+Sie können Konfigurationsprobleme für ein FSx for ONTAP Dateisystem oder für ausgewählte Volumes in einem Dateisystem beheben. Es besteht die Möglichkeit, eine oder mehrere Konfigurationen zur Korrektur auszuwählen.
+
+Der Behebungsprozess kann zu Instanz-Ausfallzeiten oder Serviceunterbrechungen führen. Jede Empfehlung sollte sorgfältig geprüft werden, bevor ein Konfigurationsproblem behoben wird.
+
+.Schritte
+. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
+. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
+. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
+. Wählen Sie *Probleme anzeigen* für jede Konfiguration. Stellen Sie sicher, dass Sie die Empfehlung sorgfältig überprüfen.
++
+Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke nicht optimierter Konfigurationen.
+
+. *Reparieren* auswählen.
++
+Wenn *Anzeigen und Reparieren* eine Option ist, die betroffenen Volumes zur Behebung auswählen.
+
+. In der Zusammenfassung und den im Dialogfeld angezeigten Maßnahmen wird dargestellt, was geschieht, wenn das Problem behoben wird. Einige Vorgänge können zu Ausfallzeiten der Instanz oder zu Dienstunterbrechungen führen.
+. *Weiter* auswählen, um das Konfigurationsproblem zu beheben.
+
+
+.Ergebnis
+Workload Factory startet den Prozess zur Behebung des Problems. Im Menü „Kontoeinstellungen“ die Option *Tracker* auswählen, um den Status des Vorgangs anzuzeigen.
+
+
+
+[[dismiss-a-configuration-analysis]]
+== Konfigurationsanalyse verwerfen
+
+Eine Konfigurationsanalyse für ein FSx for ONTAP Dateisystem oder für ausgewählte Volumes wird gestoppt. Die Analyse kann bei Bedarf neu gestartet werden.
+
+[role="tabbed-block"]
+====
+.Eine Konfigurationsanalyse für ein Dateisystem verwerfen
+--
+.Schritte
+. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
+. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
+. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
+. Wählen Sie *Probleme anzeigen* für jede Konfiguration. Stellen Sie sicher, dass Sie die Empfehlung sorgfältig überprüfen.
++
+Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke nicht optimierter Konfigurationen.
+
+. Suchen Sie unter Configurations die Konfiguration, die nicht auf Ihre Umgebung zutrifft, und wählen Sie dann *Dismiss*.
+. Im Dialogfeld „Konfiguration verwerfen“ *Verwerfen* auswählen, um die Konfigurationsanalyse zu beenden.
+
+
+--
+.Eine Konfigurationsanalyse für ein Volume abbrechen
+--
+.Schritte
+. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
+. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
+. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
+. Unter „Konfigurationen“ identifizieren Sie die Konfiguration, die für die ausgewählten Volumes verworfen werden soll, und wählen Sie dann *Anzeigen und reparieren* aus.
+. Die Volumes, die aus der Konfigurationsanalyse ausgeschlossen werden, identifizieren.
++
+** Für ein Volume: das Menü „Aktionen“ auswählen und dann *Volume ausblenden* auswählen.
+** Für mehrere Volumes: Die Volumes auswählen und dann neben *Bulk action* auf *Dismiss* klicken.
+
+
+. *Verwerfen* auswählen, um die Analyse für die Konfiguration zu beenden.
+. Im Dialogfeld „Volumes verwerfen“ *Verwerfen* auswählen, um zu bestätigen.
+
+
+--
+====
+.Ergebnis
+Die Konfigurationsanalyse stoppt für das Dateisystem oder die ausgewählten Volumes.
+
+Sie können die Analyse jederzeit reaktivieren.
+
+
+
+[[reactivate-a-dismissed-configuration-analysis]]
+== Eine verworfene Konfigurationsanalyse reaktivieren
+
+Reaktivieren Sie eine verworfene Konfigurationsanalyse jederzeit. Sie können eine oder mehrere Konfigurationen reaktivieren.
+
+[role="tabbed-block"]
+====
+.Reaktivieren einer Konfigurationsanalyse für ein Dateisystem
+--
+.Schritte
+. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
+. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
+. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
+. Wählen Sie *Verworfene Konfigurationen* aus.
+. Die gewünschte Konfiguration auswählen und *Reaktivieren* wählen.
+
+
+--
+.Eine Konfigurationsanalyse für ein Volumen reaktivieren
+--
+.Schritte
+. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
+. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menü-Symbol wird verwendet, um zu Workloads wie Storage, eda, ai, databases, vmware und administration zu navigieren."] und dann *Speicher*.
+. Wählen Sie im Menü „Storage“ die Option *Well-architected*.
+. Wählen Sie *Verworfene Konfigurationen* aus.
+. Das/die zu reaktivierende(n) Volumen wird/werden anhand der Konfigurationsanalyse identifiziert.
++
+** Für ein Volume: Wählen Sie das Aktionsmenü und dann *Volume reaktivieren*.
+** Für mehrere Volumes: Die Volumes auswählen und dann neben *Massenaktion* auf *Reaktivieren* klicken.
+
+
+
+
+--
+====
+.Ergebnis
+Das System reaktiviert die Konfigurationsanalyse. Täglich findet eine neue Analyse statt.

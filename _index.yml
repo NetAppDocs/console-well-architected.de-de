@@ -1,0 +1,49 @@
+---
+indexpage:
+  title: Gut strukturiertes Dashboard in der NetApp Console
+  summary: NetApp Console unterstützt Sie bei der Wartung und dem Betrieb zuverlässiger,
+    sicherer, effizienter und kostengünstiger Konfigurationen, die mit den gut durchdachten
+    Frameworks für den von Ihnen verwendeten Speichertyp übereinstimmen.
+  keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
+    framework, NetApp Console
+  lead: NetApp Console unterstützt die Verwaltung zuverlässiger, sicherer, effizienter
+    und kostengünstiger Speicherkonfigurationen, die mit dem Well-Architected-Framework
+    Ihres Speichertyps abgestimmt sind. Das Well-Architected-Dashboard bietet eine
+    einheitliche Ansicht über Konten und Regionen, unterstützt Teams bei der Identifizierung
+    und Priorisierung von Risiken und ermöglicht benutzerdefinierte Regeln für spezifische
+    Anforderungen.
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Versionshinweise
+      url: "/whats-new.html"
+    - title: Informationen zum gut gestalteten Dashboard
+      url: "/learn-well-architected-dashboard.html"
+  - title: Unterstützte Produkte
+    links:
+    - title: Amazon FSx for NetApp ONTAP
+      url: "/fsx/configuration-analysis-fsx.html"
+    - title: Cloud Volumes ONTAP
+      url: "/cvo/configuration-analysis-cvo.html"
+  - title: Erstellen Sie Ihre eigenen Regeln
+    links:
+    - title: Informationen zu benutzerdefinierten Regeln
+      url: "/learn-custom-rules.html"
+    - title: Eine benutzerdefinierte Regel erstellen
+      url: "/create-custom-rule.html"
+    - title: Benutzerdefinierte Regeln verwalten
+      url: "/manage-custom-rules.html"
+  - title: Wissen und Unterstützung
+    links:
+    - title: Registrieren Sie sich für Support
+      url: "/register-support.html"
+    - title: Hilfe erhalten
+      url: "/get-help.html"
+  - title: Blogs & Community
+    links:
+    - title: NetApp Console
+      url: https://www.netapp.com/console
+    - title: NetApp Data Services
+      url: https://www.netapp.com/data-services/
+    - title: NetApp Community
+      url: https://community.netapp.com/

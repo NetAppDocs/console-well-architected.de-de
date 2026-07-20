@@ -1,0 +1,122 @@
+---
+sidebar: sidebar 
+permalink: manage-custom-rules.html 
+keywords: manage custom rules, disable rules, delete rules, rule catalog, byor 
+summary: Benutzerdefinierte Architekturregeln können im Regelkatalog angezeigt, aktiviert, deaktiviert und gelöscht werden. 
+---
+= Benutzerdefinierte Regeln verwalten
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Der Regelkatalog ist eine zentrale Stelle zur Verwaltung all Ihrer benutzerdefinierten Regeln. Die Details jeder Regel, deren Ergebnisse sowie die Möglichkeit, sie zu aktivieren oder zu deaktivieren, sind einsehbar.
+
+
+
+[[view-the-rules-catalog]]
+== Regelkatalog anzeigen
+
+Der Regelkatalog zeigt alle von Ihnen erstellten Regeln, deren Status, Zeitplan und neuesten Ergebnisse an.
+
+.Schritte
+. Melden Sie sich mit einem der link:https://docs.netapp.com/us-en/workload-setup-admin/console-experiences.html["Konsolenerlebnisse"^] an.
+. Wählen Sie das Menü image:workloads-menu-icon.png["Das Hamburger-Menüsymbol"] und anschließend *Rule builder*.
+. *Ihre Regeln ansehen* öffnet den Regelkatalog.
+
+
+
+
+[[view-rule-results]]
+== Regelergebnisse anzeigen
+
+Die Ergebnisse zeigen, welche Ressourcen Ihrer Regel folgen und welche nicht.
+
+.Schritte
+. Im Regelkatalog auf die Regel klicken, die überprüft werden soll.
+. Die Registerkarte *Alle Laufergebnisse* auswählen.
+. Mit **Details anzeigen** werden die Ergebnisse für jeden Durchlauf angezeigt.
+
+
+Wenn die Überprüfung für einige Elemente fehlgeschlagen ist, gibt die Fehlermeldung Aufschluss über die Ursache. Häufige Gründe sind Verbindungsprobleme, fehlende Berechtigungen oder ein Link/Connector, der nicht eingerichtet wurde.
+
+
+
+[[pause-a-rule]]
+== Eine Regel pausieren
+
+Pausieren Sie eine Regel, um Auswertungen zu stoppen, ohne die Regel zu löschen. Pausierte Regeln bleiben im Katalog und können jederzeit neu gestartet werden.
+
+.Schritte
+. Im Regelkatalog auf die Regel klicken, die pausiert werden soll.
+. Führen Sie einen der folgenden Schritte aus:
++
+** Um eine geplante Regel anzuhalten, auf *Pause* klicken und anschließend bestätigen. Die Regel wird nicht mehr gemäß Zeitplan ausgeführt.
+** Um eine pausierte Regel fortzusetzen, auf *Fortsetzen* klicken und anschließend bestätigen. Die Regel nimmt die regulären Auswertungen wieder auf.
+
+
+
+
+
+
+[[delete-a-custom-rule]]
+== Eine benutzerdefinierte Regel löschen
+
+Eine Regel kann dauerhaft gelöscht werden, wenn sie nicht mehr benötigt wird. Diese Aktion kann nicht rückgängig gemacht werden.
+
+.Schritte
+. Im Regelkatalog auf die Regel klicken, die gelöscht werden soll.
+. Klicken Sie auf *Delete*.
+. Bestätigen Sie, dass die Regel dauerhaft gelöscht werden soll.
+
+
+.Ergebnis
+Die Regel wurde aus dem Katalog entfernt. Der gesamte Auswertungsverlauf wird gelöscht.
+
+
+
+[[run-a-quick-test]]
+== Ein Schnelltest kann durchgeführt werden
+
+Ein Schnelltest kann jederzeit ausgeführt werden, um die aktuelle Konformität zu überprüfen, ohne auf den nächsten geplanten Lauf warten zu müssen.
+
+.Schritte
+. Im Regelkatalog auf die Regel klicken, die ausgewertet werden soll.
+. Klicken Sie auf *Validate*.
++
+Das System bewertet alle Ressourcen im Geltungsbereich anhand der Regellogik.
+
+. Die Ergebnisse zeigen den aktuellen Compliance-Status.
+
+
+Tests werden geprüft und erscheinen in der Bewertungshistorie der Regel.
+
+
+
+[[understand-execution-status]]
+== Ausführungsstatus
+
+Der Ausführungsstatus zeigt an, ob eine Regel erfolgreich ausgeführt wurde.
+
+Erfolgreich:: Alle relevanten Ressourcen wurden geprüft und es wurden keine Fehler gefunden.
+Teilweise erfolgreich:: Einige Ressourcen wurden erfolgreich geprüft, andere jedoch nicht. Prüfen Sie die Fehlerdetails für diejenigen, die nicht geprüft werden konnten.
+Fehlgeschlagen:: Die Auswertung wurde nicht abgeschlossen. Häufige Ursachen sind Fehler bei den AWS-Anmeldeinformationen, Netzwerkverbindungsprobleme oder Berechtigungsprobleme bei ONTAP.
+
+
+Wenn eine Regel wiederholt fehlschlägt oder nur teilweise erfolgreich ist, sollte geprüft werden, ob:
+
+* Die AWS-Zugangsdaten haben Lesezugriff auf alle Ressourcen.
+* Link und Connector sind für alle Dateisysteme im Geltungsbereich konfiguriert.
+* Der FSx for ONTAP Viewer-Benutzer verfügt über die entsprechenden Berechtigungen.
+
+
+
+
+[[what-to-do-next]]
+== Nächste Schritte
+
+link:learn-custom-rules.html["Weitere Informationen zu benutzerdefinierten Regeln"]
