@@ -125,7 +125,6 @@
   <block id="3f13a901b4c6ed36f4bf5c5510e9ed24" category="paragraph">Die Kalt-Daten-Tiering-Funktion ermöglicht das Verschieben von selten genutzten Daten von der SSD-Speicherebene in kostengünstigere Speichersysteme. Azure Blob Storage dient als Kapazitätsebene für inaktive Daten.</block>
   <block id="01e12de62fa77fda2815719aed8ff892" category="paragraph-title">Was kommt als Nächstes</block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link-macro">Gut strukturierte Cloud Volumes ONTAP Systemkonfigurationen implementieren</block>
-  <block id="70c25ce13f84b6cf616c5c5393012e5d" category="paragraph"><block ref="70c25ce13f84b6cf616c5c5393012e5d" category="inline-link-macro-rx"></block></block>
   <block id="17971bad5bbff77e668b69daffb7a446" category="summary">Workload factory scannt Cloud Volumes ONTAP Konfigurationen und liefert Erkenntnisse und Empfehlungen, um operative Exzellenz zu ermöglichen.</block>
   <block id="a5f72f42d4d49e54f3c4c72a4faac290" category="paragraph">Mit Erkenntnissen und Empfehlungen aus der Konfigurationsanalyse lässt sich NetApp nutzen, um Best Practices für Ihre Cloud Volumes ONTAP Systeme auf Microsoft Azure Storage umzusetzen. Der gut konzipierte Status kann einfach überprüft werden, Informationen zu Problemen mit Ihren Konfigurationen stehen zur Verfügung, und Empfehlungen zur Verbesserung der Architektur von Systemen, die nicht auf Zuverlässigkeit, Sicherheit, Effizienz, Leistung und Kosten optimiert sind, werden bereitgestellt.</block>
   <block id="2481fd47e889a8c5be960ceeee3fc039" category="inline-link-macro">Informationen zur Konfigurationsanalyse und zum Well-Architected-Status.</block>
@@ -199,7 +198,6 @@
   <block id="934fd3399568391e103ee0d773bf954d" category="list-text">*Inaktive NAS-Volumes*</block>
   <block id="ad888b2fc1946f3bc7c47013f4399476" category="paragraph">Die Konfigurationsanalyse identifiziert NAS-Volumes, die nicht aktiv genutzt werden, und empfiehlt, die Volumes zu löschen oder zu archivieren, um Kosten zu reduzieren.</block>
   <block id="e8355e7c1132891c80c2af3110068130" category="inline-link-macro">Gut strukturierte FSx for ONTAP Dateisystemkonfigurationen implementieren</block>
-  <block id="1ee8c065d47cecf380fd9841f303d49a" category="paragraph"><block ref="1ee8c065d47cecf380fd9841f303d49a" category="inline-link-macro-rx"></block></block>
   <block id="79e27ec6fe4e85288757fae779bab815" category="inline-link-macro">Berechtigungen für Operationen und Behebung gewähren</block>
   <block id="357d9dd76af15c8aaf8f09990a2846a9" category="list-text">Sie müssen <block ref="6f74e2a9589a6666ba7fdb81dabfc5eb" category="inline-link-macro-rx"></block> in Ihrem AWS-Konto angemeldet sein.</block>
   <block id="a9d8fc136a7c1528e9a5743b9de2661a" category="inline-link-macro">Verbindung zu einem FSx for ONTAP Dateisystem über einen Link herstellen</block>
@@ -573,4 +571,6 @@
   <block id="9d10d0bdf93932822ff5bc0f86ac6b28" category="list-text">Im Dashboard „Well-architected“: *Verworfene Konfigurationen*.</block>
   <block id="c37e06ff1ab011341411419a0b9135f1" category="summary">Informationen zu den Neuerungen im gut strukturierten Dashboard in der NetApp Console.</block>
   <block id="6fb3d6accfe922bd3fef5d5bed978117" category="doc">Was ist neu am Well-Architected Dashboard in der NetApp Console</block>
+  <block id="4981d84eaa3fd6ff3264cddba1073588" category="paragraph"><block ref="4981d84eaa3fd6ff3264cddba1073588" category="inline-link-macro-rx"></block></block>
+  <block id="79a8fc85f9cfab6c1f84759be4b7d0ca" category="paragraph"><block ref="79a8fc85f9cfab6c1f84759be4b7d0ca" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -183,4 +183,4 @@ Die Konfigurationsanalyse identifiziert NAS-Volumes, die nicht aktiv genutzt wer
 
 
 .Was kommt als Nächstes
-link:fsx/improve-configurations-fsx.html["Gut strukturierte FSx for ONTAP Dateisystemkonfigurationen implementieren"]
+link:improve-configurations-fsx.html["Gut strukturierte FSx for ONTAP Dateisystemkonfigurationen implementieren"]

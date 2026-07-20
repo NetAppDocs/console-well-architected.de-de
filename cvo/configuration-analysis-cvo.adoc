@@ -110,4 +110,4 @@ Die Kalt-Daten-Tiering-Funktion ermöglicht das Verschieben von selten genutzten
 
 
 .Was kommt als Nächstes
-link:cvo/improve-configurations-cvo.html["Gut strukturierte Cloud Volumes ONTAP Systemkonfigurationen implementieren"]
+link:improve-configurations-cvo.html["Gut strukturierte Cloud Volumes ONTAP Systemkonfigurationen implementieren"]
