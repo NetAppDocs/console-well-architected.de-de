@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/configuration-analysis-cvo.html 
 keywords: Cloud Volumes ONTAP, configuration issues, issues, improve, analyze, storage configuration, recommendation, recommendations 
-summary: NetApp Console analysiert täglich die Speichersystemkonfigurationen, um festzustellen, ob Konfigurationsprobleme vorliegen. 
+summary: Das gut strukturierte Dashboard in der NetApp Console analysiert täglich die Systemkonfigurationen von Cloud Volumes ONTAP, um festzustellen, ob Konfigurationsprobleme vorliegen. 
 ---
 = Konfigurationsanalyse für Cloud Volumes ONTAP
 :allow-uri-read: 
@@ -11,7 +11,7 @@ summary: NetApp Console analysiert täglich die Speichersystemkonfigurationen, u
 
 
 [role="lead"]
-NetApp Console analysiert regelmäßig die Konfigurationen der Speichersysteme, um festzustellen, ob Konfigurationsprobleme vorliegen. Wenn Probleme gefunden werden, zeigt die Console an, worin diese bestehen, und erläutert, welche Änderungen erforderlich sind, damit die Speichersysteme optimale Leistung, Kosteneffizienz und die Einhaltung bewährter Verfahren erreichen.
+Das übersichtliche Dashboard in NetApp Console analysiert regelmäßig die Konfigurationen Ihrer Speichersysteme, um mögliche Konfigurationsprobleme Ihrer Cloud Volumes ONTAP Systeme zu erkennen. Werden Probleme gefunden, zeigt das Dashboard, welche Probleme vorliegen, und erläutert, welche Änderungen erforderlich sind, damit Ihre Speichersysteme optimale Leistung, Kosteneffizienz und die Einhaltung bewährter Verfahren erreichen.
 
 Zu den wichtigsten Fähigkeiten gehören:
 
@@ -26,14 +26,14 @@ Zu den wichtigsten Fähigkeiten gehören:
 [[analysis-requirements]]
 == Analyseanforderungen
 
-Für eine vollständige Cloud Volumes ONTAP Systemanalyse ist link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["Einen NetApp Console-Agenten bereitstellen"^] erforderlich. Die Verbindung mit dem Console-Agenten ermöglicht es der Console, alle Cloud Volumes ONTAP Systemkonfigurationen wie Datenschutz und Leistung zu analysieren.
+Für eine vollständige Cloud Volumes ONTAP Systemanalyse müssen link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["Einen NetApp Console-Agenten bereitstellen"^] Sie die Konnektivität zwischen Ihren Systemen und der NetApp Console einrichten.
 
 
 
 [[best-practices-and-recommendations-for-cloud-volumes-ontap-systems]]
 == Bewährte Verfahren und Empfehlungen für Cloud Volumes ONTAP Systeme
 
-NetApp bewertet Speicherkonfigurationen, um einen umfassenden Überblick über Best Practices für die ONTAP-Konfiguration und die Einhaltung des Azure Well-Architected Frameworks zu bieten. Die Bewertung empfiehlt zudem Verbesserungen und Fehlerbehebungen.
+Das Dashboard für eine optimierte Architektur bewertet Speicherkonfigurationen und bietet einen detaillierten Überblick über Best Practices für die ONTAP-Konfiguration und die Einhaltung des Azure Well-Architected Frameworks. Die Bewertung empfiehlt außerdem Verbesserungen und Fehlerbehebungen.
 
 Die gut strukturierte Analyse kategorisiert Konfigurationen in den folgenden Säulen des Rahmenwerks: _Zuverlässigkeit_, _Sicherheit_, _operative Exzellenz_, _Kostenoptimierung_ und _Leistungseffizienz_.
 
@@ -42,7 +42,7 @@ Die gut strukturierte Analyse kategorisiert Konfigurationen in den folgenden Sä
 [[reliability]]
 === Zuverlässigkeit
 
-Zuverlässigkeit gewährleistet, dass Arbeitslasten ihre beabsichtigten Funktionen korrekt und konsistent erfüllen, selbst wenn es zu Störungen kommt.
+Zuverlässigkeit gewährleistet, dass Arbeitslasten ihre beabsichtigten Funktionen korrekt und konsistent ausführen, selbst bei Störungen.
 
 * *Lokale Snapshots planen*
 +
@@ -50,7 +50,7 @@ Planen Sie lokale Snapshots für effiziente Datensicherung und schnelle Wiederhe
 
 * *SSD-Kapazitätsschwelle*
 +
-Die SSD-Speicherebene sollte dauerhaft nicht zu mehr als 80 % ausgelastet sein. Eine Überschreitung dieses Schwellenwerts kann den Durchsatz beeinträchtigen und dazu führen, dass Datenvolumes schreibgeschützt werden, wodurch Schreibvorgänge fehlschlagen.
+Die SSD-Speicherebene sollte dauerhaft nicht zu mehr als 80 % ausgelastet sein. Eine Überschreitung dieses Schwellenwerts kann den Durchsatz beeinträchtigen, Datenvolumes schreibgeschützt machen und dazu führen, dass Schreibvorgänge fehlschlagen.
 
 
 
@@ -101,7 +101,7 @@ Kostenoptimierung hilft Ihnen, den größtmöglichen Nutzen für Ihr Unternehmen
 
 * *Nicht ausgelastete SSD-Kapazität identifizieren*
 +
-Eine nicht voll ausgelastete SSD-Speicherebene kann unnötige Kosten verursachen. NetApp empfiehlt, die SSD-Speicherkapazität zu reduzieren und dabei einen freien Speicherplatzpuffer von 20 % über der aktuell genutzten Kapazität beizubehalten. Eine Verringerung kann mehrere Stunden bis mehrere Tage dauern, und das System unterstützt während dieser Zeit keine anderen Dateisystemoperationen.
+Eine unzureichend ausgelastete SSD-Kapazitätsebene kann unnötige Kosten verursachen. NetApp empfiehlt, die SSD-Kapazitätsebene zu reduzieren und dabei einen freien Speicherpuffer von 20 % über der aktuell genutzten Kapazität beizubehalten. Eine Verringerung dauert mehrere Stunden bis mehrere Tage, und andere Systemvorgänge werden in dieser Zeit nicht unterstützt.
 
 * *Daten-Tiering-Richtlinie*
 +

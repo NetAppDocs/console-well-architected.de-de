@@ -1,19 +1,17 @@
 ---
 sidebar: sidebar 
 permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap' 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
 summary: Informationen zu den Neuerungen im gut strukturierten Dashboard in der NetApp Console. 
 ---
-= Was ist neu am Well-Architected Dashboard in der NetApp Console
+= Was ist neu am gut strukturierten Dashboard in der NetApp Console
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
 
 
 [role="lead"]
-Neuerungen der Well-architected Komponente von Workload Factory.
-
-Informationen zu den Neuerungen im Well-Architected Dashboard in der NetApp Console.
+Informationen zu den Neuerungen im gut strukturierten Dashboard in der NetApp Console.
 
 
 
@@ -42,4 +40,4 @@ Das gut gestaltete Dashboard in der Konsole ist für die folgenden Speichersyste
 
 Benutzerdefinierte Regeln können in einfacher Sprache erstellt werden, damit Ihre Systeme den Standards Ihres Unternehmens und den NetApp Best Practices entsprechen. Die Regeln lassen sich mit einem Probelauf testen und anschließend für die Ausführung in Ihren Umgebungen einplanen.
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Weitere Informationen zu benutzerdefinierten Regeln"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Weitere Informationen zu benutzerdefinierten Regeln"]

@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: learn-well-architected-dashboard.html 
 keywords: well-architected, best practices, well-architected system, best practices, well-architected framework, well-architected configurations, system management, system optimization, system configuration, system analysis 
-summary: NetApp Console scannt Systemkonfigurationen auf Zuverlässigkeit, Sicherheit, operative Exzellenz, Kostenoptimierung und Leistungseffizienz und liefert Erkenntnisse und Empfehlungen, die Ihnen helfen, operative Exzellenz zu erreichen. 
+summary: Das übersichtliche Dashboard in NetApp Console scannt Systemkonfigurationen auf Zuverlässigkeit, Sicherheit, operative Exzellenz, Kostenoptimierung und Leistungseffizienz und liefert Erkenntnisse und Empfehlungen, die zur Erreichung operativer Exzellenz beitragen. 
 ---
 = Informationen zum gut gestalteten Dashboard in der NetApp Console
 :allow-uri-read: 
@@ -11,32 +11,32 @@ summary: NetApp Console scannt Systemkonfigurationen auf Zuverlässigkeit, Siche
 
 
 [role="lead"]
-NetApp Console unterstützt bei der Wartung und dem Betrieb zuverlässiger, sicherer, effizienter und kostengünstiger Konfigurationen, die mit den bewährten Frameworks für den verwendeten Speichertyp übereinstimmen. Das Well-Architected-Dashboard bietet eine einheitliche Ansicht über Konten und Regionen hinweg, unterstützt Teams bei der Identifizierung und Priorisierung von Risiken und ermöglicht benutzerdefinierte Regeln für spezifische Anforderungen. Automatische tägliche Scans Ihrer Speichersystemkonfigurationen liefern Einblicke und Empfehlungen, um Ihre Speicherumgebungen zu optimieren.
+Das übersichtliche Dashboard in NetApp Console unterstützt die Wartung und den Betrieb zuverlässiger, sicherer, effizienter und kostengünstiger Konfigurationen, die mit den bewährten Frameworks für den verwendeten Speichertyp übereinstimmen. Das Dashboard bietet eine einheitliche Ansicht über Konten und Regionen hinweg, unterstützt Teams bei der Identifizierung und Priorisierung von Risiken und ermöglicht benutzerdefinierte Regeln für spezifische Anforderungen. Automatische tägliche Scans der Speichersystemkonfigurationen liefern Erkenntnisse und Empfehlungen zur Optimierung der Speicherumgebungen.
 
 
 
 [[how-it-works]]
 == So funktioniert es
 
-NetApp Console analysiert Ihre Konfigurationen täglich. Die Analyse liefert gut strukturierte Statusberichte, Einblicke und Empfehlungen.
+Das Well-Architected Dashboard analysiert Ihre Konfigurationen täglich. Die Analyse liefert Well-Architected-Status, Einblicke und Empfehlungen.
 
-Nach Abschluss der täglichen Analyse werden die Konfigurationen im Well-Architected-Dashboard der Bereitstellung als „optimiert“ oder „nicht optimiert“ angezeigt. Dort finden Sie die Gesamtoptimierungsbewertung, Konfigurationsprobleme nach Kategorie sowie eine Liste der Konfigurationsprobleme und Empfehlungen. Die Empfehlungen zu den Konfigurationsproblemen können überprüft werden. Einige Probleme können automatisch von der NetApp Console behoben werden, während andere ein manuelles Eingreifen erfordern. In diesem Fall stellt die NetApp Console detaillierte Anweisungen zur Verfügung, um bei der Umsetzung der empfohlenen Änderungen zu unterstützen.
+Nach Abschluss der täglichen Analyse werden die Konfigurationen im Well-Architected Dashboard als „optimiert“ oder „nicht optimiert“ angezeigt. Dort finden Sie die Gesamtoptimierungsbewertung, Konfigurationsprobleme nach Kategorie sowie eine Liste von Konfigurationsproblemen und Empfehlungen. Empfehlungen zu den Konfigurationsproblemen können eingesehen werden. Einige Probleme können automatisch durch das Well-Architected Dashboard behoben werden, während andere manuelle Eingriffe erfordern. In diesem Fall stellt das Well-Architected Dashboard detaillierte Anweisungen bereit, um die empfohlenen Änderungen umzusetzen.
 
-Sie können die Analyse von Konfigurationen, die für Ihre Umgebungen nicht relevant sind, ausblenden. Dadurch werden unnötige Warnmeldungen und ungenaue Optimierungsergebnisse vermieden. Wenn die Analyse einer bestimmten Konfiguration ausgeblendet wird, schließt NetApp Console diese Konfiguration nicht in die Gesamtoptimierungsbewertung ein.
+Sie können die Analyse von Konfigurationen ausblenden, die für Ihre Umgebungen nicht relevant sind. Dadurch werden unnötige Warnmeldungen und ungenaue Optimierungsergebnisse vermieden. Wenn die Analyse einer bestimmten Konfiguration ausgeblendet wird, wird diese Konfiguration im Well-Architected Dashboard nicht in die Gesamtoptimierungsbewertung einbezogen.
 
 
 
 [[why-it-matters]]
 == Warum es wichtig ist
 
-NetApp Console wendet Best Practices für große Speicher-, Datenbank- und VMware-Umgebungen an, indem kontinuierliche Analysen mit Empfehlungseinblicken und Fehlerbehebungen kombiniert werden. Automatisierte Korrekturen, die in der NetApp Console angewendet werden, reduzieren menschliche Fehler, gewährleisten einheitliches Management und erhalten Leistung und Zuverlässigkeit Ihrer Systeminfrastrukturen.
+Das Well-Architected Dashboard in der NetApp Console wendet Best Practices auf große Storage-, Datenbank- und VMware-Umgebungen an, indem es kontinuierliche Bewertungen mit Empfehlungseinblicken und Fehlerbehebungen kombiniert. Automatisierte Fehlerbehebungen, die im Well-Architected Dashboard angewendet werden, reduzieren menschliche Fehler, gewährleisten einheitliches Management und erhalten Leistung und Zuverlässigkeit Ihrer Systeminfrastrukturen.
 
 
 
 [[supported-storage-systems]]
 == Unterstützte Speichersysteme
 
-Die folgenden Speichersysteme werden im Well-Architected Dashboard in der Console unterstützt:
+Das übersichtliche Dashboard in der Konsole unterstützt die folgenden Speichersysteme:
 
 * Amazon FSx for NetApp ONTAP
 * Cloud Volumes ONTAP in Microsoft Azure

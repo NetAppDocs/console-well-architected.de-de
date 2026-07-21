@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: cvo/improve-configurations-cvo.html 
 keywords: improve configurations, optimize configurations, implement best practices, well-architected file system, Cloud Volumes ONTAP, Microsoft Azure 
-summary: Workload factory scannt Cloud Volumes ONTAP Konfigurationen und liefert Erkenntnisse und Empfehlungen, um operative Exzellenz zu ermöglichen. 
+summary: Das übersichtliche Dashboard scannt Cloud Volumes ONTAP Konfigurationen und liefert Erkenntnisse und Empfehlungen, die zur Erreichung operativer Exzellenz beitragen. 
 ---
 = Gut strukturierte Cloud Volumes ONTAP Systemkonfigurationen implementieren
 :allow-uri-read: 
@@ -20,11 +20,11 @@ link:configuration-analysis-cvo.html["Informationen zur Konfigurationsanalyse un
 [[about-this-task]]
 == Über diese Aufgabe
 
-NetApp analysiert täglich die Cloud Volumes ONTAP Systembereitstellungen in Microsoft Azure. Die tägliche Analyse liefert den Well-Architected-Status sowie Erkenntnisse und Empfehlungen, um Konfigurationsprobleme zu beheben, sodass Ihre Systeme Best Practices entsprechen.
+Das Well-Architected-Dashboard analysiert täglich die Bereitstellungskonfigurationen des Cloud Volumes ONTAP Systems auf Microsoft Azure. Die tägliche Analyse liefert den Well-Architected-Status, Einblicke und Empfehlungen.
 
-Sie können die Empfehlungen für Konfigurationsprobleme Ihrer Systeme auch ohne den Einsatz eines Console Agent einsehen; die Konnektivität mit dem Console Agent ermöglicht jedoch NetApp, die umfassendste Analyse Ihrer Systemressourcen bereitzustellen.
+Die Verbindung über Link oder den Konsolenagenten ermöglicht es dem übersichtlichen Dashboard in der NetApp Console, Ihre Cloud Volumes ONTAP Systeme umfassend auf Probleme mit Leistung, Datenschutz und Konfigurationen zu überprüfen. Dadurch werden präzise Einblicke und Empfehlungen zur Optimierung Ihrer Cloud Volumes ONTAP Systeme bereitgestellt.
 
-Nach Abschluss der täglichen Analyse zeigt das Dashboard die Gesamtzahl der optimal konfigurierten Ressourcen, die Anzahl der Ressourcen im kritischen Zustand und die Anzahl der Ressourcen im Warnstatus an. Die Konfigurationen werden anhand der Säulen des Well-Architected Frameworks kategorisiert: Zuverlässigkeit, operative Exzellenz, Kostenoptimierung, Leistungseffizienz und Sicherheit. Das Dashboard enthält außerdem eine Tabelle mit allen Konfigurationen, dem Well-Architected-Status dieser Konfigurationen, dem Schweregrad, der Kategorie, dem Ressourcentyp (Volume oder System), den betroffenen Ressourcen sowie der Option, die Empfehlung anzuzeigen, wenn die Konfiguration nicht optimiert ist.
+Die Anforderungen an die Speicherkonfiguration variieren. Die Analyse spezifischer Konfigurationen, die für Ihre Speicherumgebung nicht relevant sind, kann ausgeblendet werden. So werden unnötige Warnmeldungen und ungenaue Optimierungsergebnisse vermieden.
 
 
 

@@ -24,4 +24,4 @@ Das gut gestaltete Dashboard in der Konsole ist für die folgenden Speichersyste
 
 Benutzerdefinierte Regeln können in einfacher Sprache erstellt werden, damit Ihre Systeme den Standards Ihres Unternehmens und den NetApp Best Practices entsprechen. Die Regeln lassen sich mit einem Probelauf testen und anschließend für die Ausführung in Ihren Umgebungen einplanen.
 
-https://docs.netapp.com/us-en/workload-well-architected/learn-custom-rules.html["Weitere Informationen zu benutzerdefinierten Regeln"^]
+https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Weitere Informationen zu benutzerdefinierten Regeln"]

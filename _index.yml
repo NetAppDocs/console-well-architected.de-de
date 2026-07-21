@@ -1,17 +1,18 @@
 ---
 indexpage:
   title: Gut strukturiertes Dashboard in der NetApp Console
-  summary: NetApp Console unterstützt Sie bei der Wartung und dem Betrieb zuverlässiger,
-    sicherer, effizienter und kostengünstiger Konfigurationen, die mit den gut durchdachten
-    Frameworks für den von Ihnen verwendeten Speichertyp übereinstimmen.
+  summary: Das übersichtliche Dashboard in NetApp Console unterstützt Sie bei der
+    Wartung und dem Betrieb zuverlässiger, sicherer, effizienter und kostengünstiger
+    Konfigurationen, die mit den bewährten Frameworks für den von Ihnen verwendeten
+    Speichertyp übereinstimmen.
   keywords: amazon, fsx, cloud volumes ontap, microsoft azure, netapp, ontap, well-architected
     framework, NetApp Console
-  lead: NetApp Console unterstützt die Verwaltung zuverlässiger, sicherer, effizienter
-    und kostengünstiger Speicherkonfigurationen, die mit dem Well-Architected-Framework
-    Ihres Speichertyps abgestimmt sind. Das Well-Architected-Dashboard bietet eine
-    einheitliche Ansicht über Konten und Regionen, unterstützt Teams bei der Identifizierung
-    und Priorisierung von Risiken und ermöglicht benutzerdefinierte Regeln für spezifische
-    Anforderungen.
+  lead: Das übersichtliche Dashboard in NetApp Console unterstützt die Verwaltung
+    zuverlässiger, sicherer, effizienter und kostengünstiger Speicherkonfigurationen,
+    die mit dem Well-Architected-Framework Ihres Speichertyps übereinstimmen. Das
+    Well-Architected-Dashboard bietet eine einheitliche Ansicht über Konten und Regionen
+    hinweg, unterstützt Teams bei der Identifizierung und Priorisierung von Risiken
+    und ermöglicht benutzerdefinierte Regeln für spezifische Anforderungen.
   tiles:
   - title: Los geht's
     links:
