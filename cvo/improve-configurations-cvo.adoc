@@ -52,5 +52,111 @@ Optional kann image:button_download.png["Ein Screenshot des Download-Symbols"]ei
 . Die Empfehlung wird überprüft.
 
 
-.Was kommt als Nächstes
-Konfigurationsprobleme beheben, damit Ihre Systeme mit optimaler Leistung laufen.
+
+
+[[fix-a-configuration-issue]]
+== Ein Konfigurationsproblem beheben
+
+Sie können Konfigurationsprobleme für ein Cloud Volumes ONTAP System oder für ausgewählte Volumes in einem Dateisystem beheben. Es besteht die Möglichkeit, eine oder mehrere Konfigurationen zur Behebung auszuwählen.
+
+Der Behebungsprozess kann zu Instanz-Ausfallzeiten oder Serviceunterbrechungen führen. Jede Empfehlung sollte sorgfältig geprüft werden, bevor ein Konfigurationsproblem behoben wird.
+
+.Schritte
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
+. Im Dashboard „Well-architected“ kann für jede Konfiguration die Option *Ansicht* ausgewählt werden.
++
+Stellen Sie sicher, dass Sie die Empfehlung sorgfältig überprüfen. Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke nicht optimierter Konfigurationen.
+
+. *Reparieren* auswählen.
++
+Wenn *Anzeigen und Reparieren* eine Option ist, die betroffenen Volumes zur Behebung auswählen.
+
+. In der Zusammenfassung und den im Dialogfeld angezeigten Maßnahmen wird dargestellt, was geschieht, wenn das Problem behoben wird. Einige Vorgänge können zu Ausfallzeiten der Instanz oder zu Dienstunterbrechungen führen.
+. *Weiter* auswählen, um das Konfigurationsproblem zu beheben.
+
+
+.Ergebnis
+Workload Factory startet den Prozess zur Behebung des Problems. Im Menü „Kontoeinstellungen“ die Option *Tracker* auswählen, um den Status des Vorgangs anzuzeigen.
+
+
+
+[[dismiss-a-configuration-analysis]]
+== Konfigurationsanalyse verwerfen
+
+Eine Konfigurationsanalyse für ein Cloud Volumes ONTAP System oder für ausgewählte Volumes kann gestoppt werden. Die Analyse kann bei Bedarf neu gestartet werden.
+
+[role="tabbed-block"]
+====
+.Eine Konfigurationsanalyse für ein Dateisystem verwerfen
+--
+.Schritte
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
+. Im Dashboard „Well-architected“ kann für jede Konfiguration die Option *Ansicht* ausgewählt werden.
+. Suchen Sie unter Configurations die Konfiguration, die nicht auf Ihre Umgebung zutrifft, und wählen Sie dann *Dismiss*.
+. Im Dialogfeld „Konfiguration verwerfen“ *Verwerfen* auswählen, um die Konfigurationsanalyse zu beenden.
+
+
+--
+.Eine Konfigurationsanalyse für ein Volume abbrechen
+--
+.Schritte
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
+. Im Dashboard „Well-architected“ kann für jede Konfiguration die Option *Ansicht* ausgewählt werden.
+. Unter „Konfigurationen“ identifizieren Sie die Konfiguration, die für die ausgewählten Volumes verworfen werden soll, und wählen Sie dann *Anzeigen und reparieren* aus.
+. Die Volumes, die aus der Konfigurationsanalyse ausgeschlossen werden, identifizieren.
++
+** Für ein Volume: das Menü „Aktionen“ auswählen und dann *Volume ausblenden* auswählen.
+** Für mehrere Volumes: Die Volumes auswählen und dann neben *Bulk action* auf *Dismiss* klicken.
+
+
+. *Verwerfen* auswählen, um die Analyse für die Konfiguration zu beenden.
+. Im Dialogfeld „Volumes verwerfen“ *Verwerfen* auswählen, um zu bestätigen.
+
+
+--
+====
+.Ergebnis
+Die Konfigurationsanalyse stoppt für das Dateisystem oder die ausgewählten Volumes.
+
+Sie können die Analyse jederzeit reaktivieren.
+
+
+
+[[reactivate-a-dismissed-configuration-analysis]]
+== Eine verworfene Konfigurationsanalyse reaktivieren
+
+Eine verworfene Konfigurationsanalyse für ein Cloud Volumes ONTAP System kann jederzeit reaktiviert werden. Eine oder mehrere Konfigurationen können zur Reaktivierung ausgewählt werden.
+
+[role="tabbed-block"]
+====
+.Reaktivieren einer Konfigurationsanalyse für ein Dateisystem
+--
+.Schritte
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
+. Wählen Sie *Verworfene Konfigurationen* aus.
+. Die gewünschte Konfiguration auswählen und *Reaktivieren* wählen.
+
+
+--
+.Eine Konfigurationsanalyse für ein Volumen reaktivieren
+--
+.Schritte
+. Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
+. Wählen Sie im NetApp Console-Menü die Option *Workloads* und dann *Well-architected* aus.
+. Wählen Sie *Verworfene Konfigurationen* aus.
+. Das/die zu reaktivierende(n) Volumen wird/werden anhand der Konfigurationsanalyse identifiziert.
++
+** Für ein Volume: Wählen Sie das Aktionsmenü und dann *Volume reaktivieren*.
+** Für mehrere Volumes: Die Volumes auswählen und dann neben *Massenaktion* auf *Reaktivieren* klicken.
+
+
+
+
+--
+====
+.Ergebnis
+Das System reaktiviert die Konfigurationsanalyse. Täglich findet eine neue Analyse statt.

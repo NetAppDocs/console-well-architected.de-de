@@ -21,6 +21,8 @@ Zu den wichtigsten Fähigkeiten gehören:
 * Erkenntnisse in die Praxis umsetzen
 
 
+Unaufgelöste Direktive in <stdin> - include::well-architected-workloads.adoc[]
+
 
 
 [[analysis-requirements]]
@@ -44,13 +46,13 @@ Die gut strukturierte Analyse kategorisiert Konfigurationen in den folgenden Sä
 
 Zuverlässigkeit gewährleistet, dass Arbeitslasten ihre beabsichtigten Funktionen korrekt und konsistent ausführen, selbst bei Störungen.
 
-* *Lokale Snapshots planen*
+* *Snapshot Policy*
 +
 Planen Sie lokale Snapshots für effiziente Datensicherung und schnelle Wiederherstellung. Snapshots sind sofortige, zeitpunktgenaue Abbilder Ihrer Volumes.
 
-* *SSD-Kapazitätsschwelle*
+* *SSD-Kapazitätsreserve*
 +
-Die SSD-Speicherebene sollte dauerhaft nicht zu mehr als 80 % ausgelastet sein. Eine Überschreitung dieses Schwellenwerts kann den Durchsatz beeinträchtigen, Datenvolumes schreibgeschützt machen und dazu führen, dass Schreibvorgänge fehlschlagen.
+Die SSD-Speicherebene sollte eine Auslastung von maximal 80 % nicht überschreiten. Dies kann sich auf Lese- und Schreibvorgänge auf Ihrer Kapazitätspool-Speicherebene auswirken und die Durchsatzkapazität Ihres Systems beeinträchtigen. Wenn die Kapazität erschöpft ist, werden Datenvolumes schreibgeschützt. Dienste, die versuchen, neue Daten zu schreiben, schlagen ebenfalls fehl.
 
 
 
@@ -74,17 +76,17 @@ NetApp Autonomous Ransomware Protection mit KI (ARP/AI) trägt zur Verbesserung 
 
 Operative Exzellenz konzentriert sich auf die Bereitstellung der besten Architektur und des besten Geschäftswerts.
 
-* *Kapazitätsauslastungsschwellenwert*
+* *Freier Volumenkapazitätsspielraum*
 +
-NetApp empfiehlt, dass die Speicherkapazität eines Volumes dauerhaft 80 % Auslastung nicht überschreitet. Dies kann sich auf Lese- und Schreibvorgänge Ihrer Anwendung auswirken. Die Volume-Kapazität kann manuell oder automatisch mithilfe der Funktion zur automatischen Größenanpassung erhöht werden.
+Es wird empfohlen, dass die Volume-Kapazität eine Auslastung von 80 % nicht überschreitet. Dies kann Auswirkungen auf Lese- und Schreibvorgänge Ihrer Anwendung haben. Volume-Kapazitätserhöhungen können manuell oder automatisch mithilfe der Volume automatische Größenanpassung-Funktion erfolgen.
 
-* *Schreibmodus für Cache-Beziehungen*
+* *FlexCache Schreibmodus*
 +
-Für optimale Leistung empfiehlt NetApp den Cache-Beziehungs-Schreibmodus, der am besten zu Ihrer Arbeitslast passt. Der Write-Around-Modus bietet eine bessere Leistung für leseintensive Arbeitslasten mit kleinen Dateien, während der Write-Back-Modus eine bessere Leistung für schreibintensive Arbeitslasten mit großen Dateien bietet.
+Für optimale Leistung wird der FlexCache Schreibmodus empfohlen, der am besten zu Ihrer Arbeitslast passt. Der Write-Around-Modus bietet eine bessere Leistung für leseintensive Arbeitslasten mit kleinen Dateien, während der Write-Back-Modus eine bessere Leistung für schreibintensive Arbeitslasten mit großen Dateien bietet.
 
-* *ONTAP Cache Volume-Größe*
+* *FlexCache Replika-Größe*
 +
-NetApp empfiehlt, die automatische Größenanpassung und das Scrubbing auf Cache-Volumes zu aktivieren, um eine optimale Größe beizubehalten und den Cache auf häufig genutzte (heiße) Daten für maximale Effizienz zu fokussieren.
+Es wird empfohlen, die automatische Größenanpassung und das Scrubbing auf Cache-Volumes zu aktivieren, um eine optimale Größe beizubehalten und den Cache auf häufig genutzte (heiße) Daten für maximale Effizienz zu fokussieren.
 
 * *ONTAP Versionskonformität*
 +
@@ -99,15 +101,15 @@ Ein Upgrade auf die neueste ONTAP Version gewährleistet volle Kompatibilität, 
 
 Kostenoptimierung hilft Ihnen, den größtmöglichen Nutzen für Ihr Unternehmen zu erzielen und gleichzeitig die Kosten niedrig zu halten.
 
-* *Nicht ausgelastete SSD-Kapazität identifizieren*
+* *Überdimensionierte SSD-Kapazität*
 +
-Eine unzureichend ausgelastete SSD-Kapazitätsebene kann unnötige Kosten verursachen. NetApp empfiehlt, die SSD-Kapazitätsebene zu reduzieren und dabei einen freien Speicherpuffer von 20 % über der aktuell genutzten Kapazität beizubehalten. Eine Verringerung dauert mehrere Stunden bis mehrere Tage, und andere Systemvorgänge werden in dieser Zeit nicht unterstützt.
+Eine überdimensionierte SSD-Kapazitätsebene verursacht unnötige Kosten. Es wird empfohlen, die SSD-Kapazität zu reduzieren und dabei einen freien Speicherplatzpuffer von 20 % beizubehalten. Eine Reduzierungsoperation kann mehrere Stunden bis mehrere Tage dauern, und andere Dateisystemoperationen werden in dieser Zeit nicht unterstützt.
 
-* *Daten-Tiering-Richtlinie*
+* *Kalte Datenauslagerung*
 +
-Die Kalt-Daten-Tiering-Funktion ermöglicht das Verschieben von selten genutzten Daten von der SSD-Speicherebene in kostengünstigere Speichersysteme. Azure Blob Storage dient als Kapazitätsebene für inaktive Daten.
+Die Tiering-Funktion für kalte Daten ermöglicht das Verschieben kalter Daten von der SSD-Speicherebene in kostengünstigeren Speicher. Es wird empfohlen, für jedes Volume eine Tiering-Richtlinie anzuwenden. Azure Blob Storage dient als Kapazitätsebene für inaktive Daten.
 
 
 
 .Was kommt als Nächstes
-link:improve-configurations-cvo.html["Gut strukturierte Cloud Volumes ONTAP Systemkonfigurationen implementieren"]
+link:https://docs.netapp.com/us-en/console-well-architected/cvo/improve-configurations-cvo.html["Gut strukturierte Cloud Volumes ONTAP Systemkonfigurationen implementieren"]

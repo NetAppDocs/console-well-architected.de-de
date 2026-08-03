@@ -26,6 +26,9 @@ Mit dem Errichter können benutzerdefinierte Best-Practice-Regeln in einfacher S
 Individuelle Regeln helfen Ihnen, die Standards, Risikogrenzen und betrieblichen Anforderungen Ihrer Organisation durchzusetzen, Aspekte, die generische Anbieterregeln möglicherweise nicht vollständig abdecken.
 
 
+NOTE: Wenn Ihr Kontoadministrator die KI-Funktionen deaktiviert hat, ist der Rule builder nicht verfügbar und Sie können keine benutzerdefinierten Regeln erstellen. link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Informationen zur Verwaltung von KI-Funktionen"^].
+
+
 
 [[how-custom-rules-work]]
 == Funktionsweise benutzerdefinierter Regeln

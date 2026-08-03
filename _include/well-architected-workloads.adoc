@@ -1,0 +1,21 @@
+= So funktioniert es
+:allow-uri-read: 
+
+
+
+
+[[how-it-works]]
+== So funktioniert es
+
+Workload Factory analysiert täglich Ihre Workloads, die auf unterstützten Cloud-Speichersystem-Bereitstellungen ausgeführt werden. Die Analyse liefert den Well-Architected-Status, Einblicke und Empfehlungen.
+
+Nach Abschluss der täglichen Analyse werden die Konfigurationen im Well-architected Dashboard für die Bereitstellung als „optimiert“ oder „nicht optimiert“ angezeigt. Konfigurationsprobleme sind nach Kategorie sowie in einer Liste von Konfigurationsproblemen und Empfehlungen zu finden. Die Empfehlungen zu den Konfigurationsproblemen können überprüft werden. Einige Probleme können automatisch von Workload Factory behoben werden, während andere manuelle Eingriffe erfordern. In diesem Fall stellt Workload Factory detaillierte Anweisungen bereit, um bei der Umsetzung der empfohlenen Änderungen zu unterstützen.
+
+Sie können die Analyse von Konfigurationen ausblenden, die für Ihre Umgebungen nicht relevant sind. Dadurch werden unnötige Warnmeldungen und ungenaue Optimierungsergebnisse vermieden. Wenn Sie eine bestimmte Konfigurationsanalyse ausblenden, berücksichtigt Workload Factory die Konfiguration nicht in der Gesamtoptimierungsbewertung.
+
+
+
+[[why-it-matters]]
+== Warum es wichtig ist
+
+Workload Factory wendet Best Practices auf große Speicher-, Datenbank- und VMware-Umgebungen an, indem kontinuierliche Analysen mit Handlungsempfehlungen und Fehlerbehebungen kombiniert werden. Automatisierte Korrekturen in der NetApp Console reduzieren menschliche Fehler, gewährleisten einheitliches Management und erhalten Leistung und Zuverlässigkeit über Ihre Workload-Infrastrukturen hinweg.

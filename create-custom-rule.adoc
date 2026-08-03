@@ -16,15 +16,18 @@ summary: Eine benutzerdefinierte Architekturregel in natürlicher Sprache erstel
 [role="lead"]
 Benutzerdefinierte Regeln lassen sich erstellen, indem sie in einfacher Sprache beschrieben werden. Der KI-Regelbuilder wandelt Ihre Anfrage in eine validierte Regel um, die Ihre FSx for ONTAP Ressourcen überprüft.
 
+.Über diese Aufgabe
+Der Regelerstellungsprozess führt Sie Schritt für Schritt durch die Regeldefinition, die Überprüfung der KI-Interpretation und die Ergebniskontrolle vor der Planung regelmäßiger Auswertungen. Sie behalten dabei in jedem Schritt die Kontrolle. Das System schlägt basierend auf Ihrer Eingabe eine Regel vor, aber nichts wird umgesetzt, bevor Sie sie bestätigen.
+
+
+NOTE: Wenn Ihr Kontoadministrator die KI-Funktionen deaktiviert hat, wird eine Meldung angezeigt und Sie können keine benutzerdefinierten Regeln erstellen. Wenden Sie sich an Ihren Administrator oder link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["Informationen zur KI-Administration"^].
+
 .Bevor Sie beginnen
 * Sie haben AWS-Anmeldeinformationen mit Lesezugriff konfiguriert.
 * Sie verfügen über ONTAP Zugangsdaten mit Anzeigeberechtigungen.
 * Sie haben einen Link oder Agenten für FSx für ONTAP Konnektivität konfiguriert.
 * Sie verstehen, dass die Erstellung benutzerdefinierter Regeln den Bedrock AI-Dienst von NetApp verwendet.
 
-
-.Über diese Aufgabe
-Der Regelerstellungsprozess führt Sie Schritt für Schritt durch die Regeldefinition, die Überprüfung der KI-Interpretation und die Ergebniskontrolle vor der Planung regelmäßiger Auswertungen. Sie behalten dabei in jedem Schritt die Kontrolle. Das System schlägt basierend auf Ihrer Eingabe eine Regel vor, aber nichts wird umgesetzt, bevor Sie sie bestätigen.
 
 
 

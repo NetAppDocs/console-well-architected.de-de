@@ -42,7 +42,7 @@ Die Ergebnisse zeigen, welche Ressourcen Ihrer Regel folgen und welche nicht.
 . Mit **Details anzeigen** werden die Ergebnisse für jeden Durchlauf angezeigt.
 
 
-Wenn die Überprüfung für einige Elemente fehlgeschlagen ist, gibt die Fehlermeldung Aufschluss über die Ursache. Häufige Gründe sind Verbindungsprobleme, fehlende Berechtigungen oder ein Link/Connector, der nicht eingerichtet wurde.
+Wenn die Überprüfung für einige Elemente fehlgeschlagen ist, zeigt die Fehlermeldung den Grund an. Häufige Gründe sind Verbindungsprobleme, fehlende Berechtigungen oder eine nicht eingerichtete Verknüpfung.
 
 
 
@@ -110,7 +110,7 @@ Fehlgeschlagen:: Die Auswertung wurde nicht abgeschlossen. Häufige Ursachen sin
 Wenn eine Regel wiederholt fehlschlägt oder nur teilweise erfolgreich ist, sollte geprüft werden, ob:
 
 * Die AWS-Zugangsdaten haben Lesezugriff auf alle Ressourcen.
-* Link und Connector sind für alle Dateisysteme im Geltungsbereich konfiguriert.
+* Link und Console Agent sind für alle Dateisysteme im Geltungsbereich konfiguriert.
 * Der FSx for ONTAP Viewer-Benutzer verfügt über die entsprechenden Berechtigungen.
 
 

@@ -13,10 +13,12 @@ settings:
   langs: de-de,us-en,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn,zh-tw
 sidebar:
   entries:
-  - title: Los geht's
+  - title: Versionshinweise
     entries:
     - title: Was ist neu
       url: "/whats-new.html"
+  - title: Los geht's
+    entries:
     - title: Informationen zum gut gestalteten Dashboard
       url: "/learn-well-architected-dashboard.html"
   - title: Unterstützte Produkte

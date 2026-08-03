@@ -1,22 +1,6 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, well-architected, well-architected dashboard, amazon fsx for netapp ontap, fsx for ontap, cloud volumes ontap, microsoft azure' 
-summary: Informationen zu den Neuerungen im gut strukturierten Dashboard in der NetApp Console. 
----
-= Was ist neu am gut strukturierten Dashboard in der NetApp Console
+= Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
-
-[role="lead"]
-Informationen zu den Neuerungen im gut strukturierten Dashboard in der NetApp Console.
-
-
-
-[[03-august-2026]]
-== 03. August 2026
 
 
 
@@ -94,32 +78,3 @@ Sie können auch eine oder mehrere Konfigurationen von der Analyse der optimalen
 Wenn Sie eine verworfene Konfiguration später wieder einbinden möchten, können Sie sie im Well-Architected Dashboard reaktivieren. Dadurch wird die Konfiguration in die Analyse zurückgeholt und es werden Empfehlungen und Korrekturen dafür bereitgestellt.
 
 link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["Konfigurationen für Cloud Volumes ONTAP in Microsoft Azure beheben, verwerfen und reaktivieren"]
-
-
-
-[[20-july-2026]]
-== 20. Juli 2026
-
-
-
-[[introducing-the-well-architected-dashboard-in-netapp-console]]
-=== Einführung des gut strukturierten Dashboards in der NetApp Console
-
-Das übersichtliche Dashboard in der NetApp Console bietet eine zentrale Übersicht über Ihre Speichersysteme und Konfigurationen über alle Konten und Regionen hinweg. Das Dashboard liefert Einblicke und Empfehlungen, die zur Erreichung optimaler Betriebsabläufe beitragen. Der Well-Architected-Status Ihrer Konfigurationen, Konfigurationsprobleme, die nach den Säulen des Well-Architected-Frameworks für den von Ihnen verwendeten Speichertyp organisiert sind, sowie eine Liste von Konfigurationsproblemen und Empfehlungen werden angezeigt.
-
-Erfahren Sie mehr über das link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["gut gestaltetes Dashboard"].
-
-Das gut gestaltete Dashboard in der Konsole ist für die folgenden Speichersysteme verfügbar:
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
-
-
-
-
-[[build-your-own-custom-rules]]
-=== Eigene benutzerdefinierte Regeln erstellen
-
-Benutzerdefinierte Regeln können in einfacher Sprache erstellt werden, damit Ihre Systeme den Standards Ihres Unternehmens und den NetApp Best Practices entsprechen. Die Regeln lassen sich mit einem Probelauf testen und anschließend für die Ausführung in Ihren Umgebungen einplanen.
-
-https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Weitere Informationen zu benutzerdefinierten Regeln"]
