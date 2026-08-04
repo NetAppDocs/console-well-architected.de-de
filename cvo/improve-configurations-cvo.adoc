@@ -88,7 +88,7 @@ Eine Konfigurationsanalyse für ein Cloud Volumes ONTAP System oder für ausgew�
 
 [role="tabbed-block"]
 ====
-.Eine Konfigurationsanalyse für ein Dateisystem verwerfen
+.Eine Konfigurationsanalyse für ein System ablehnen
 --
 .Schritte
 . Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
@@ -119,7 +119,7 @@ Eine Konfigurationsanalyse für ein Cloud Volumes ONTAP System oder für ausgew�
 --
 ====
 .Ergebnis
-Die Konfigurationsanalyse stoppt für das Dateisystem oder die ausgewählten Volumes.
+Die Konfigurationsanalyse stoppt für das System oder die ausgewählten Volumes.
 
 Sie können die Analyse jederzeit reaktivieren.
 
@@ -132,7 +132,7 @@ Eine verworfene Konfigurationsanalyse für ein Cloud Volumes ONTAP System kann j
 
 [role="tabbed-block"]
 ====
-.Reaktivieren einer Konfigurationsanalyse für ein Dateisystem
+.Eine Konfigurationsanalyse für ein System reaktivieren
 --
 .Schritte
 . Melden Sie sich bei der link:https://console.netapp.com/home["NetApp Console"^] an.
