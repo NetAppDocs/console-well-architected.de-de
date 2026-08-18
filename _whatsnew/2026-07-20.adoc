@@ -11,11 +11,7 @@ Das übersichtliche Dashboard in der NetApp Console bietet eine zentrale Übersi
 
 Erfahren Sie mehr über das link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["gut gestaltetes Dashboard"].
 
-Das gut gestaltete Dashboard in der Konsole ist für die folgenden Speichersysteme verfügbar:
-
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Amazon FSx for NetApp ONTAP"]
-* link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure"]
-
+Das übersichtliche Dashboard in der Konsole ist verfügbar für link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Cloud Volumes ONTAP in Microsoft Azure."]
 
 
 

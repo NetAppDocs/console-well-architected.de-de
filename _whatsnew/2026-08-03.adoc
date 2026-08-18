@@ -1,71 +1,7 @@
-= Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard
+= Konfigurationen für Cloud Volumes ONTAP in Microsoft Azure beheben, verwerfen und reaktivieren
 :allow-uri-read: 
 
 
-
-
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard
-
-Das übersichtliche Dashboard in NetApp Console enthält nun aktualisierte Speicherkonfigurationsnamen für FSx für ONTAP, um die Übersichtlichkeit und Konsistenz zu verbessern.
-
-Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.
-
-[cols="1,1"]
-|===
-| Alter Konfigurationsname | Neuer Konfigurationsname 
-
-
-| Volumes-Backups planen | Volume Backups 
-
-
-| SSD-Kapazitätsschwelle | SSD Kapazitätsreserve 
-
-
-| Dateikapazitätsschwelle | Dateikapazitäts-Spielraum 
-
-
-| Zuverlässigkeit der Langzeitaufbewahrungsdaten | Replikationsrichtlinienbezeichnungen 
-
-
-| Geplante lokale Snapshots | Snapshot-Richtlinie 
-
-
-| Unnötige Backups löschen | Ablauf der Sicherung 
-
-
-| Unnötige Snapshots löschen | Snapshot-Ablauf 
-
-
-| Nicht ausgelastete SSD-Kapazität | Überdimensionierte SSD-Kapazität 
-
-
-| Inaktive Blockgeräte | Inaktive Blockgeräte (LUN) 
-
-
-| Optimierung der Gesamtbetriebskosten durch das Tiering von Kaltdaten | Kaltdaten-Tiering 
-
-
-| Bericht zur logischen Volumenkapazität | Host-sichtbare Kapazitätsberichterstattung 
-
-
-| FlexGroup Volumenausgleich | Neu ausbalancieren von FlexGroup-Volumes 
-
-
-| FlexVol Volumenausgleich | FlexVol Volumes neu verteilen 
-
-
-| Schreibmodus für Cache-Beziehungen | FlexCache Schreibmodus 
-
-
-| Cache-Volume-Größe optimieren | FlexCache Replika-Größe 
-
-
-| Unbefugter Zugriff auf Volume | Unautorisierter Zugriff auf iSCSI Volumes 
-
-
-| ARP/AI deaktiviert | Ransomware-Schutz (ARP/AI) 
-|===
 
 
 [[fix-dismiss-and-reactivate-configurations-for-cloud-volumes-ontap-in-microsoft-azure]]
