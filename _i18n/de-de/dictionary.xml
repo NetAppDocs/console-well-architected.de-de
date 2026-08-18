@@ -564,7 +564,6 @@
   <block id="874fbc8635967fd5300d05269c50cea0" category="paragraph">Workload Factory analysiert täglich Ihre Workloads, die auf unterstützten Cloud-Speichersystem-Bereitstellungen ausgeführt werden. Die Analyse liefert den Well-Architected-Status, Einblicke und Empfehlungen.</block>
   <block id="27b3ab8a4b26cd2ee311ee2ac5911ba3" category="paragraph">Nach Abschluss der täglichen Analyse werden die Konfigurationen im Well-architected Dashboard für die Bereitstellung als „optimiert“ oder „nicht optimiert“ angezeigt. Konfigurationsprobleme sind nach Kategorie sowie in einer Liste von Konfigurationsproblemen und Empfehlungen zu finden. Die Empfehlungen zu den Konfigurationsproblemen können überprüft werden. Einige Probleme können automatisch von Workload Factory behoben werden, während andere manuelle Eingriffe erfordern. In diesem Fall stellt Workload Factory detaillierte Anweisungen bereit, um bei der Umsetzung der empfohlenen Änderungen zu unterstützen.</block>
   <block id="c2bf4ab5c816a6a7be03384125f4a5d6" category="paragraph">Workload Factory wendet Best Practices auf große Speicher-, Datenbank- und VMware-Umgebungen an, indem kontinuierliche Analysen mit Handlungsempfehlungen und Fehlerbehebungen kombiniert werden. Automatisierte Korrekturen in der NetApp Console reduzieren menschliche Fehler, gewährleisten einheitliches Management und erhalten Leistung und Zuverlässigkeit über Ihre Workload-Infrastrukturen hinweg.</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Alter Konfigurationsname</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Neuer Konfigurationsname</block>
@@ -670,8 +669,9 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">Das gut strukturierte Dashboard in NetApp Console ist für Amazon FSx for NetApp ONTAP verfügbar.</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">Informationen zur Konfigurationsanalyse für FSx für ONTAP</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">Das übersichtliche Dashboard in NetApp Console enthält nun neue Speicherkonfigurationsnamen für FSx für ONTAP.</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Gut strukturierte Probleme werden auf der Seite „NetApp Console Systems“ angezeigt</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Benachrichtigungen zu Architekturproblemen sind für Cloud Volumes ONTAP in Microsoft Azure auf der Seite „Storage management Systems“ in der NetApp Console verfügbar. Mit dieser Funktion lassen sich Konfigurationsprobleme in Cloud Volumes ONTAP-Systemen in Azure schnell erkennen und vom Hinweis aus zum Workloads well-architected Dashboard wechseln.</block>
   <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10. August 2026</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">Aktualisierte Konfigurationsnamen im Well-Architected Dashboard</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">Das übersichtliche Dashboard in NetApp Console enthält nun auch neue Speicherkonfigurationsnamen.</block>
 </blocks>

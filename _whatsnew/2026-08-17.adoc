@@ -9,15 +9,14 @@
 
 Das gut strukturierte Dashboard in NetApp Console ist für Amazon FSx for NetApp ONTAP verfügbar.
 
-* link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Informationen zur Konfigurationsanalyse für FSx für ONTAP"]
+link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Informationen zur Konfigurationsanalyse für FSx für ONTAP"]
 
 
 
+[[updated-configuration-names-in-the-well-architected-dashboard]]
+=== Aktualisierte Konfigurationsnamen im Well-Architected Dashboard
 
-[[updated-configuration-names-for-fsx-for-ontap-in-the-well-architected-dashboard]]
-=== Aktualisierte Konfigurationsnamen für FSx für ONTAP im Well-Architected Dashboard
-
-Das übersichtliche Dashboard in NetApp Console enthält nun neue Speicherkonfigurationsnamen für FSx für ONTAP.
+Das übersichtliche Dashboard in NetApp Console enthält nun auch neue Speicherkonfigurationsnamen.
 
 Die folgende Tabelle zeigt die alten Konfigurationsnamen und die entsprechenden neuen Konfigurationsnamen im Well-Architected Dashboard.
 
