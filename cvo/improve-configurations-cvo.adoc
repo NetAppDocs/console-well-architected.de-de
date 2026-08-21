@@ -33,6 +33,12 @@ Die Anforderungen an die Speicherkonfiguration variieren. Die Analyse spezifisch
 
 * Sie müssen link:https://console.netapp.com/add-working-environment/choose-type["Ein Cloud Volumes ONTAP System hinzufügen"] zur NetApp Console wechseln, um den Status der gut strukturierten Konfiguration und Empfehlungen für Konfigurationsprobleme anzuzeigen.
 * link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["Es empfiehlt sich, einen Console Agent bereitzustellen."] für die umfassendste Analyse Ihrer Systemressourcen.
+* Ausgehende Netzwerkverbindungen zu den folgenden Endpunkten:
++
+** \https://api.workloads.netapp.com
+** \https://ws.workloads.bluexp.netapp.com
+
+
 
 
 
