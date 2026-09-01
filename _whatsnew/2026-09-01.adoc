@@ -1,0 +1,26 @@
+= Remote Datenreplizierung Bewertung für Cloud Volumes ONTAP
+:allow-uri-read: 
+
+
+
+
+[[remote-data-replication-assessment-for-cloud-volumes-ontap]]
+=== Remote Datenreplizierung Bewertung für Cloud Volumes ONTAP
+
+Eine neue Bewertungsfunktion ist verfügbar, um zu prüfen, ob Cloud Volumes ONTAP Daten durch Remote-Replikation geschützt sind. Dies stellt sicher, dass Ihr Datenschutzplan den Best Practices für Disaster Recovery und Business Continuity entspricht.
+
+link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Informationen zur Konfigurationsanalyse für Cloud Volumes ONTAP"]
+
+
+
+[[dismiss-entire-well-architected-configurations]]
+=== Gesamte Well-Architected-Konfigurationen verwerfen
+
+Sie können nun eine gesamte empfohlene Konfiguration aus Ihrem Dashboard ausblenden. Dadurch besteht mehr Kontrolle darüber, welche Empfehlungen und Bewertungen für Ihre Umgebung angezeigt werden.
+
+
+
+[[database-workload-recommendations-in-the-well-architected-dashboard]]
+=== Empfehlungen für Datenbank-Workloads im Well-Architected Dashboard
+
+Empfehlungen für Datenbank-Workloads mit FSx für ONTAP sind jetzt im Well-Architected Dashboard in der NetApp Console verfügbar. Der Status sowohl Ihrer Speicherressourcen als auch Ihrer Datenbank-Workloads ist an einem Ort einsehbar, was einen vollständigen Überblick über den Zustand Ihrer Infrastruktur ermöglicht.

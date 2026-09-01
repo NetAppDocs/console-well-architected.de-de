@@ -4,7 +4,7 @@ permalink: manage-custom-rules.html
 keywords: manage custom rules, disable rules, delete rules, rule catalog, byor 
 summary: Benutzerdefinierte Architekturregeln können im Regelkatalog angezeigt, aktiviert, deaktiviert und gelöscht werden. 
 ---
-= Benutzerdefinierte Regeln verwalten
+= Benutzerdefinierte Regeln in der NetApp Console verwalten
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 

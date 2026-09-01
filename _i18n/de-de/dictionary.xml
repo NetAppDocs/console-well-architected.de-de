@@ -678,4 +678,20 @@
   <block id="0eda8bbe61d2248f5418aba76b8dc5b1" category="list-text">\https://api.workloads.netapp.com</block>
   <block id="9f45fe3cd2af64a1afc3f4b7f81bdae6" category="list-text">\https://ws.workloads.bluexp.netapp.com</block>
   <block id="0199e3b5e3c5c22e842b51ede658f164" category="list-text">Ausgehende Netzwerkverbindungen zu den folgenden Endpunkten:</block>
+  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Remote Datenreplizierung Bewertung für Cloud Volumes ONTAP</block>
+  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">Eine neue Bewertungsfunktion ist verfügbar, um zu prüfen, ob Cloud Volumes ONTAP Daten durch Remote-Replikation geschützt sind. Dies stellt sicher, dass Ihr Datenschutzplan den Best Practices für Disaster Recovery und Business Continuity entspricht.</block>
+  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">Informationen zur Konfigurationsanalyse für Cloud Volumes ONTAP</block>
+  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
+  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">Gesamte Well-Architected-Konfigurationen verwerfen</block>
+  <block id="e392235686146a792505661ee5217957" category="paragraph">Sie können nun eine gesamte empfohlene Konfiguration aus Ihrem Dashboard ausblenden. Dadurch besteht mehr Kontrolle darüber, welche Empfehlungen und Bewertungen für Ihre Umgebung angezeigt werden.</block>
+  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">Empfehlungen für Datenbank-Workloads im Well-Architected Dashboard</block>
+  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">Empfehlungen für Datenbank-Workloads mit FSx für ONTAP sind jetzt im Well-Architected Dashboard in der NetApp Console verfügbar. Der Status sowohl Ihrer Speicherressourcen als auch Ihrer Datenbank-Workloads ist an einem Ort einsehbar, was einen vollständigen Überblick über den Zustand Ihrer Infrastruktur ermöglicht.</block>
+  <block id="e4e3f7accbddfb89b3512b66c5a8a37b" category="doc">Eine benutzerdefinierte Regel in der NetApp Console erstellen</block>
+  <block id="c465a7bd98f96ab6b7e15dbed5471998" category="list-text">*Remote Datenreplizierung*</block>
+  <block id="b03b92c4dfcafd9226ecc9026f960e01" category="paragraph">Schützen Sie Ihre Cloud Volumes ONTAP Daten durch Remote-Datenreplizierung. Remote-Datenreplizierung bietet Funktionen für die Notfallwiederherstellung, indem synchronisierte Kopien Ihrer Daten an verschiedenen Standorten vorgehalten werden, was die Geschäftskontinuität bei Systemausfällen oder Katastrophen gewährleistet.</block>
+  <block id="3c768f8b4f33704ddf416410c4e008a7" category="doc">Hilfe zu NetApp Console Cloud-Services</block>
+  <block id="ce6ef2ffcadf69c1dc27dcb9da2d801d" category="doc">Informationen zu benutzerdefinierten Regeln in der NetApp Console</block>
+  <block id="1b050fa37a029d628899a5bd2e48783f" category="doc">Benutzerdefinierte Regeln in der NetApp Console verwalten</block>
+  <block id="277894237bef57e14299dc8b3b8b5f13" category="doc">Für Support bei der NetApp Console registrieren</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">30. August 2026</block>
 </blocks>
