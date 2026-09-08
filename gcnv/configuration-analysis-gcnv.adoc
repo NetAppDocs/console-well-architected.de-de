@@ -11,7 +11,7 @@ summary: NetApp Console analysiert regelmäßig die Konfigurationen der Speicher
 
 
 [role="lead"]
-Das Well-Architected Dashboard in der NetApp Console analysiert regelmäßig die Konfigurationen von Speichersystemen, um festzustellen, ob Konfigurationsprobleme vorliegen. Wenn Probleme gefunden werden, zeigt das Dashboard an, worin diese bestehen, und erläutert, welche Änderungen erforderlich sind, damit die Speichersysteme optimale Leistung, Kosteneffizienz und die Einhaltung bewährter Verfahren erreichen.
+Workload Factory analysiert regelmäßig die Konfigurationen Ihrer Speichersysteme, um mögliche Konfigurationsprobleme zu erkennen. Wenn Probleme gefunden werden, zeigt das Well-Architected-Dashboard in der NetApp Console an, welche Probleme vorliegen, und erläutert, welche Änderungen erforderlich sind, damit Ihre Speichersysteme optimale Leistung, Kosteneffizienz und die Einhaltung bewährter Verfahren erreichen.
 
 Zu den wichtigsten Fähigkeiten gehören:
 

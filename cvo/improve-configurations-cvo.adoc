@@ -11,7 +11,9 @@ summary: Das übersichtliche Dashboard scannt Cloud Volumes ONTAP Konfiguratione
 
 
 [role="lead"]
-Mit Erkenntnissen und Empfehlungen aus der Konfigurationsanalyse lässt sich NetApp nutzen, um Best Practices für Ihre Cloud Volumes ONTAP Systeme auf Microsoft Azure Storage umzusetzen. Der gut konzipierte Status kann einfach überprüft werden, Informationen zu Problemen mit Ihren Konfigurationen stehen zur Verfügung, und Empfehlungen zur Verbesserung der Architektur von Systemen, die nicht auf Zuverlässigkeit, Sicherheit, Effizienz, Leistung und Kosten optimiert sind, werden bereitgestellt.
+NetApp hilft bei der Implementierung von Best Practices für Ihre Cloud Volumes ONTAP Systeme, die auf Microsoft Azure Storage laufen, mithilfe von Konfigurationsanalyse-Einblicken und Empfehlungen. Der Well-Architected-Status kann überprüft werden, Informationen zu Problemen mit den Konfigurationen stehen zur Verfügung, und es gibt Empfehlungen zur Verbesserung der Architektur von Systemen, die nicht für Zuverlässigkeit, Sicherheit, Effizienz, Leistung und Kosten optimiert sind.
+
+Sie können auch die Analyse bestimmter Speicherkonfigurationen ausblenden, die für Ihre Speicherumgebung nicht relevant sind, um unnötige Warnmeldungen und ungenaue Optimierungsergebnisse zu vermeiden.
 
 link:configuration-analysis-cvo.html["Informationen zur Konfigurationsanalyse und zum Well-Architected-Status."]
 
@@ -20,11 +22,11 @@ link:configuration-analysis-cvo.html["Informationen zur Konfigurationsanalyse un
 [[about-this-task]]
 == Über diese Aufgabe
 
-Das Well-Architected-Dashboard analysiert täglich die Bereitstellungskonfigurationen des Cloud Volumes ONTAP Systems auf Microsoft Azure. Die tägliche Analyse liefert den Well-Architected-Status, Einblicke und Empfehlungen.
+Workload Factory analysiert die Systemkonfigurationen von Cloud Volumes ONTAP auf Microsoft Azure täglich. Die tägliche Analyse liefert den Well-Architected-Status, Einblicke und Empfehlungen. Konfigurationsprobleme können automatisch behoben werden, um Best Practices zu erfüllen.
 
-Die Verbindung über Link oder den Konsolenagenten ermöglicht es dem übersichtlichen Dashboard in der NetApp Console, Ihre Cloud Volumes ONTAP Systeme umfassend auf Probleme mit Leistung, Datenschutz und Konfigurationen zu überprüfen. Dadurch werden präzise Einblicke und Empfehlungen zur Optimierung Ihrer Cloud Volumes ONTAP Systeme bereitgestellt.
+Die Verbindung über Link oder Console Agent ermöglicht Workload Factory einen umfassenden Scan Ihrer Cloud Volumes ONTAP Systeme hinsichtlich Leistung, Datenschutz und Konfigurationen. Dadurch werden präzise Einblicke und Empfehlungen zur Optimierung Ihrer Cloud Volumes ONTAP Systeme bereitgestellt.
 
-Die Anforderungen an die Speicherkonfiguration variieren. Die Analyse spezifischer Konfigurationen, die für Ihre Speicherumgebung nicht relevant sind, kann ausgeblendet werden. So werden unnötige Warnmeldungen und ungenaue Optimierungsergebnisse vermieden.
+Die Anforderungen an die Speicherkonfiguration variieren. Die Analyse von Konfigurationen, die für Ihre Speicherumgebung nicht relevant sind, kann ausgeblendet werden. Das Ausblenden nicht zutreffender Konfigurationen hilft, unnötige Warnmeldungen und ungenaue Optimierungsergebnisse zu vermeiden.
 
 
 
@@ -74,10 +76,7 @@ Der Behebungsprozess kann zu Instanz-Ausfallzeiten oder Serviceunterbrechungen f
 +
 Stellen Sie sicher, dass Sie die Empfehlung sorgfältig überprüfen. Die Empfehlung erläutert bewährte Vorgehensweisen und potenzielle Fallstricke nicht optimierter Konfigurationen.
 
-. *Reparieren* auswählen.
-+
-Wenn *Anzeigen und Reparieren* eine Option ist, die betroffenen Volumes zur Behebung auswählen.
-
+. „Reparieren“ für ein einzelnes Volume oder „Anzeigen und Reparieren“ für mehrere Volumes auswählen. Bei mehreren Volumes die betroffenen Volumes zur Reparatur auswählen.
 . In der Zusammenfassung und den im Dialogfeld angezeigten Maßnahmen wird dargestellt, was geschieht, wenn das Problem behoben wird. Einige Vorgänge können zu Ausfallzeiten der Instanz oder zu Dienstunterbrechungen führen.
 . *Weiter* auswählen, um das Konfigurationsproblem zu beheben.
 
