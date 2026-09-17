@@ -48,7 +48,7 @@ Workload Factory wendet Best Practices auf große Speicher-, Datenbank- und VMwa
 
 Für eine vollständige Dateisystemanalyse sind die folgenden Schritte erforderlich:
 
-* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["Einen NetApp Console-Agenten bereitstellen"^] oder link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["einen Link verknüpfen"^] zur Einrichtung der Konnektivität zwischen dem Dateisystem und der NetApp Console.
+* link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html#agent-console-deploy["Einen NetApp Console-Agenten bereitstellen"^] oder link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["einen Link verknüpfen"^] zur Einrichtung der Konnektivität zwischen dem Dateisystem und der NetApp Console.
 * Gewähren Sie _view, planning, and analysis_-Berechtigungen in Ihrem AWS-Konto.
 +
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Erfahren Sie, wie Sie einem AWS-Konto Berechtigungen erteilen"^]

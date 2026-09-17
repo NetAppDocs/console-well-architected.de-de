@@ -34,7 +34,7 @@ Die Anforderungen an die Speicherkonfiguration variieren. Die Analyse von Konfig
 == Bevor Sie beginnen
 
 * Sie müssen link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["Berechtigungen für Operationen und Behebung gewähren"^] in Ihrem AWS-Konto angemeldet sein.
-* Sie müssen link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["einen Console Agent installieren"^] oder link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["Über einen Link eine Verbindung zu einem FSx for ONTAP Dateisystem herstellen"] für die umfassendste Analyse Ihrer Dateisystemressourcen.
+* Sie müssen link:https://docs.netapp.com/us-en/console-setup-admin/concept-agent-install-options.html["einen Console Agent installieren"^] oder link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["Über einen Link eine Verbindung zu einem FSx for ONTAP Dateisystem herstellen"] für die umfassendste Analyse Ihrer Dateisystemressourcen.
 
 
 
