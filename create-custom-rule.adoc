@@ -85,7 +85,7 @@ Die KI bittet Sie möglicherweise, aus mehreren Optionen auszuwählen, um Ihre B
 [[test-the-rule]]
 == Testen der Regel
 
-Vor der Planung der Regel kann ein einmaliger Test durchgeführt werden, um zu sehen, welche Ressourcen davon betroffen sind.
+Bevor Sie die Regel speichern oder planen, sollten Sie einen Test ausführen, um festzustellen, welche Ressourcen davon betroffen sein werden.
 
 .Schritte
 . *Regel validieren* auswählen.
@@ -114,13 +114,13 @@ Das System bewertet alle Ressourcen im Geltungsbereich anhand Ihrer Regellogik.
 [[save-or-schedule-the-rule]]
 == Regel speichern oder planen
 
-Nachdem Sie Ihre Regel getestet haben, können Sie sie als Entwurf speichern oder so festlegen, dass sie regelmäßig ausgeführt wird.
+Nachdem Sie Ihre Regel validiert haben, können Sie sie als Entwurf speichern oder für eine regelmäßige Ausführung festlegen.
 
 .Schritte
 . Führen Sie einen der folgenden Schritte aus:
 +
 ** Um eine regelmäßige Auswertung zu planen, die Auswertungshäufigkeit festlegen (mindestens 1 Stunde, Standard 24 Stunden) und *Planen* auswählen. Die Regel ist aktiviert und läuft nach dem definierten Zeitplan.
-** Um ohne Terminplanung zu speichern, *Als Entwurf speichern* auswählen. Die Regel wird gespeichert, aber erst ausgewertet, wenn sie geplant wird.
+** Zum Speichern nach der Validierung ohne Planung wählen Sie *Save as draft*. Die Regel wird gespeichert, aber nicht ausgewertet, bis sie geplant wird.
 ** Um die Regel zu verwerfen, *Verwerfen* auswählen, um die Regelerstellung abzubrechen und neu zu beginnen.
 
 

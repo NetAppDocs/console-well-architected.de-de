@@ -14,7 +14,7 @@ summary: Benutzerdefinierte Architekturregeln können im Regelkatalog angezeigt,
 
 
 [role="lead"]
-Der Regelkatalog ist eine zentrale Stelle zur Verwaltung all Ihrer benutzerdefinierten Regeln. Die Details jeder Regel, deren Ergebnisse sowie die Möglichkeit, sie zu aktivieren oder zu deaktivieren, sind einsehbar.
+Der Regelkatalog dient als zentrale Anlaufstelle zur Verwaltung all Ihrer benutzerdefinierten Regeln. Es ist möglich, Regeldetails einzusehen, Ergebnisse zu überprüfen und festzulegen, ob Regeln nach einem Zeitplan ausgeführt werden.
 
 
 
@@ -97,8 +97,13 @@ Tests werden geprüft und erscheinen in der Bewertungshistorie der Regel.
 
 
 
-[[understand-execution-status]]
-== Ausführungsstatus
+[[understand-rule-and-execution-status]]
+== Regel- und Ausführungsstatus
+
+Der Regelkatalog zeigt sowohl den Regelstatus als auch den Ausführungsstatus an.
+
+Regelstatus:: *Entwurf* bedeutet, dass die Regel gespeichert, aber noch nicht eingeplant ist. *In Bearbeitung* bedeutet, dass die Regel erstellt oder validiert wird. *Eingeplant* bedeutet, dass die Regel aktiv ist und planmäßig ausgeführt wird. *Pausiert* bedeutet, dass die Regel im Katalog verbleibt, aber nicht ausgeführt wird. *Erstellung fehlgeschlagen* bedeutet, dass die Regel nicht fertiggestellt wurde und im Chat aktualisiert werden muss, bevor sie gespeichert werden kann.
+
 
 Der Ausführungsstatus zeigt an, ob eine Regel erfolgreich ausgeführt wurde.
 

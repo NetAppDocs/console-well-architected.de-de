@@ -11,7 +11,7 @@ summary: NetApp Console analysiert regelmäßig die Konfigurationen der Speicher
 
 
 [role="lead"]
-Workload Factory analysiert regelmäßig die Konfigurationen Ihrer Speichersysteme, um mögliche Konfigurationsprobleme zu erkennen. Wenn Probleme gefunden werden, zeigt das Well-Architected-Dashboard in der NetApp Console an, welche Probleme vorliegen, und erläutert, welche Änderungen erforderlich sind, damit Ihre Speichersysteme optimale Leistung, Kosteneffizienz und die Einhaltung bewährter Verfahren erreichen.
+Das übersichtliche Dashboard in NetApp Console überprüft regelmäßig die Einstellungen Ihres Speichersystems auf potenzielle Probleme. Wenn Probleme gefunden werden, werden diese angezeigt und es wird erläutert, wie sie behoben werden können, damit Ihre Speichersysteme eine optimale Leistung erbringen, Kosten kontrolliert werden und Best Practices sowohl im Standardmodus als auch im ONTAP Modus für Flex Unified Google Cloud NetApp Volumes Umgebungen eingehalten werden.
 
 Zu den wichtigsten Fähigkeiten gehören:
 
@@ -40,9 +40,9 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["In
 [[best-practices-and-recommendations-for-storage-workloads]]
 == Bewährte Verfahren und Empfehlungen für Speicher-Workloads
 
-Workload Factory bewertet Speicherkonfigurationen anhand von Best Practices für Speicher und ONTAP sowie des Google Cloud Well-Architected Framework. Die Bewertung empfiehlt außerdem Verbesserungen.
+Workload Factory bewertet Speicherkonfigurationen anhand von Best Practices für Storage und ONTAP sowie des Google Cloud Well-Architected Framework. Die Bewertung empfiehlt außerdem Verbesserungen für Google Cloud NetApp Volumes Default-mode-Ressourcen und Flex Unified-Ressourcen, die über den ONTAP API proxy endpoint erkannt wurden.
 
-Die gut strukturierte Analyse kategorisiert Konfigurationen in den folgenden Säulen des Rahmenwerks: _Zuverlässigkeit_ und _operative Exzellenz_.
+Die Well-Architected-Analyse kategorisiert Konfigurationen anhand der folgenden Säulen des Frameworks: _Zuverlässigkeit_ und _operative Exzellenz_. Die Bewertungsergebnisse können einen Moduswert von _Default-mode_ oder _ONTAP-mode_ enthalten.
 
 
 

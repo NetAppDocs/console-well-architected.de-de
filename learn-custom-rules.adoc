@@ -78,6 +78,7 @@ Regelname:: Ein benutzerdefinierter Name für die Regel.
 Beschreibung:: Ihre Begründung, warum diese Regel für Ihre Organisation wichtig ist.
 Ressourcentyp:: Die auszuwertende FSx-Ressource (Dateisystem, Volume oder Cache). Derzeit ein Ressourcentyp pro Regel.
 Terminplaner:: Wie oft die Regel ausgewertet wird (mindestens 1 Stunde, Standard 24 Stunden).
+Schwere:: Der Schweregrad für die Regel, z. B. Warnung oder kritisch.
 Bedingungslogik:: Die zu prüfenden Kriterien.
 Bewertungsumfang:: Welche Ressourcen werden bewertet (alle relevanten Ressourcen im Geltungsbereich).
 Sanierungslogik:: Manuelle Anleitung zum Umgang mit nicht konformen Ressourcen.
@@ -90,11 +91,13 @@ Sanierungslogik:: Manuelle Anleitung zum Umgang mit nicht konformen Ressourcen.
 
 Benutzerdefinierte Regeln durchlaufen die folgenden Zustände:
 
-Entwurf:: Es wird eine Regel erstellt. Es findet keine Auswertung statt.
-Trockenlauf:: Einmalige Auswertung zur Vorschau, welche Ressourcen betroffen wären. Wird zur Validierung vor der Terminplanung verwendet.
-Geplant (Aktiviert):: Die Regel ist aktiv und wird gemäß dem festgelegten Zeitplan ausgeführt.
-Deaktiviert:: Die Regel ist pausiert, aber nicht gelöscht. Sie kann wieder aktiviert werden.
-Gelöscht:: Die Regel wurde dauerhaft entfernt.
+In Bearbeitung:: Das Erstellen oder Überprüfen von Regeln.
+Erstellen fehlgeschlagen:: Die Regel konnte nicht erstellt werden.
+Entwurf:: Gespeichert, aber noch nicht geplant.
+Validierter Entwurf:: Die Validierung war erfolgreich, und die Dateien können gespeichert oder geplant werden.
+Geplant (Aktiviert):: Aktiv und wird gemäß dem festgelegten Zeitplan ausgeführt.
+Deaktiviert:: Angehalten, aber nicht gelöscht. Kann wieder aktiviert werden.
+Gelöscht:: Endgültig entfernt.
 
 
 
