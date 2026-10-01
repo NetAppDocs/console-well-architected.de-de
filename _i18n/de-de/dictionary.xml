@@ -713,5 +713,5 @@
   <block id="6e03454840286802ffb1cb92ef134388" category="paragraph">Der Regelkatalog zeigt sowohl den Regelstatus als auch den Ausführungsstatus an.</block>
   <block id="7eb618243aa6361c56c0556d8db7c199" category="list-text">Regelstatus</block>
   <block id="1daa462cc0aa2997ad7248e918251f5f" category="list-text">*Entwurf* bedeutet, dass die Regel gespeichert, aber noch nicht eingeplant ist. *In Bearbeitung* bedeutet, dass die Regel erstellt oder validiert wird. *Eingeplant* bedeutet, dass die Regel aktiv ist und planmäßig ausgeführt wird. *Pausiert* bedeutet, dass die Regel im Katalog verbleibt, aber nicht ausgeführt wird. *Erstellung fehlgeschlagen* bedeutet, dass die Regel nicht fertiggestellt wurde und im Chat aktualisiert werden muss, bevor sie gespeichert werden kann.</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">27. September 2026</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30. September 2026</block>
 </blocks>
